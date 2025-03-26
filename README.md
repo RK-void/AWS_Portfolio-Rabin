@@ -30,15 +30,31 @@ The dataset consists of awarded contract data and contains the following key att
 Methodology:
 
 1.	Data Ingestion:
+
+![AWS Screenshot](images/Picture3.png)
+
 o	Raw data was collected from CSV files.
 o	The data was uploaded to an AWS S3 bucket for storage and further processing.
 
 3.	Data Analysis:
+
+![AWS Screenshot](images/Picture19.png)
+![AWS Screenshot](images/Picture20.png)
+
 o	Used AWS Athena SQL queries to extract relevant data.
 o	Computed the average bid amount per year.
 o	Calculated the total awarded bid value per year.
 
 4.	Data Summarization & Reporting:
+
+![AWS Screenshot](images/Picture12.png)
+![AWS Screenshot](images/Picture13.png)
+![AWS Screenshot](images/Picture14.png)
+![AWS Screenshot](images/Picture15.png)
+![AWS Screenshot](images/Picture16.png)
+![AWS Screenshot](images/Picture17.png)
+![AWS Screenshot](images/Picture18.png)
+
 o	Filtered and cleaned data for accurate analysis.
 o	Extracted key insights regarding financial distribution and bid patterns.
 
@@ -55,22 +71,39 @@ To clean and transform raw bidding data stored in AWS S3 to ensure accuracy, con
 Methodology:
 
 1.	Data Ingestion:
+
+![AWS Screenshot](images/Picture3.png)
+
 o	Created an AWS S3 bucket for structured data storage.
 o	Uploaded raw CSV data to a structured folder system.
 
 3.	Data Profiling:
+
+![AWS Screenshot](images/Picture4.png)
+
 o	Used AWS Glue DataBrew to detect missing values and inconsistencies.
 o	Identified 3% missing values in the dataset.
 
 5.	Data Cleaning:
+
+![AWS Screenshot](images/Picture5.png)
+![AWS Screenshot](images/Picture6.png)
+![AWS Screenshot](images/Picture7.png)
+![AWS Screenshot](images/Picture8.png)
+
 o	Used AWS Glue to remove missing values and standardize data.
 o	Ensured bid amount data types were consistent.
 
 7.	Data Cataloging:
+
+![AWS Screenshot](images/Picture9.png)
+![AWS Screenshot](images/Picture10.png)
+![AWS Screenshot](images/Picture11.png)
+
 o	Created an AWS Glue Crawler to scan and organize data.
 o	Automated table creation for easy querying.
 
-9.	Data Storage:
+8.	Data Storage:
 o	Stored cleaned and processed data in a curated AWS S3 bucket.
 o	Ensured accessibility for further analysis in AWS Athena.
 
@@ -86,11 +119,25 @@ To implement security, governance, and monitoring mechanisms for improving data 
 
 Methodology:
 1.	Data Security:
+
+![AWS Screenshot](images/Picture21.png)
+![AWS Screenshot](images/Picture22.png)
+![AWS Screenshot](images/Picture23.png)
+![AWS Screenshot](images/Picture24.png)
+![AWS Screenshot](images/Picture25.png)
+![AWS Screenshot](images/Picture26.png)
+![AWS Screenshot](images/Picture27.png)
+
 o	Created an AWS Key Management Service (KMS) encryption key.
 o	Applied encryption to all AWS S3 storage buckets.
 o	Enabled bucket versioning for data backup and recovery.
 
-3.	Data Governance:
+2.	Data Governance:
+
+![AWS Screenshot](images/Picture28.png)
+![AWS Screenshot](images/Picture29.png)
+![AWS Screenshot](images/Picture30.png)
+
 o	Used AWS Glue visual ETL for quality checks.
 o	Ensured awarded column completeness was >99%.
 o	Verified uniqueness of bid numbers >80%.
@@ -98,6 +145,10 @@ o	Ensured bid data freshness was <1500 days.
 o	Stored failed quality check data separately from approved data.
 
 5.	Data Monitoring:
+
+![AWS Screenshot](images/Picture31.png)
+![AWS Screenshot](images/Picture32.png)
+
 o	Used AWS CloudWatch to monitor S3 bucket size and Glue job performance.
 o	Set alerts for threshold breaches to optimize storage.
 
