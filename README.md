@@ -1,7 +1,10 @@
 # AWS_Portfolio-Rabin
 
 AWS Architecture Diagram
+
+
 ![AWS Architecture Diagram](images/Picture1.png)
+
 
 ![AWS Architecture Diagram](images/Picture2.png)
 
