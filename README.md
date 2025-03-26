@@ -43,8 +43,11 @@ o	The data was uploaded to an AWS S3 bucket for storage and further processing.
 ![AWS Screenshot](images/Picture20.png)
 
 o	Used AWS Athena SQL queries to extract relevant data.
+
 o	Computed the average bid amount per year.
+
 o	Calculated the total awarded bid value per year.
+
 
 4.	Data Summarization & Reporting:
 
@@ -57,6 +60,7 @@ o	Calculated the total awarded bid value per year.
 ![AWS Screenshot](images/Picture18.png)
 
 o	Filtered and cleaned data for accurate analysis.
+
 o	Extracted key insights regarding financial distribution and bid patterns.
 
 
@@ -76,6 +80,7 @@ Methodology:
 ![AWS Screenshot](images/Picture3.png)
 
 o	Created an AWS S3 bucket for structured data storage.
+
 o	Uploaded raw CSV data to a structured folder system.
 
 3.	Data Profiling:
@@ -83,6 +88,7 @@ o	Uploaded raw CSV data to a structured folder system.
 ![AWS Screenshot](images/Picture4.png)
 
 o	Used AWS Glue DataBrew to detect missing values and inconsistencies.
+
 o	Identified 3% missing values in the dataset.
 
 5.	Data Cleaning:
@@ -93,6 +99,7 @@ o	Identified 3% missing values in the dataset.
 ![AWS Screenshot](images/Picture8.png)
 
 o	Used AWS Glue to remove missing values and standardize data.
+
 o	Ensured bid amount data types were consistent.
 
 7.	Data Cataloging:
@@ -102,10 +109,13 @@ o	Ensured bid amount data types were consistent.
 ![AWS Screenshot](images/Picture11.png)
 
 o	Created an AWS Glue Crawler to scan and organize data.
+
 o	Automated table creation for easy querying.
 
 8.	Data Storage:
+
 o	Stored cleaned and processed data in a curated AWS S3 bucket.
+
 o	Ensured accessibility for further analysis in AWS Athena.
 
 
@@ -130,7 +140,9 @@ Methodology:
 ![AWS Screenshot](images/Picture27.png)
 
 o	Created an AWS Key Management Service (KMS) encryption key.
+
 o	Applied encryption to all AWS S3 storage buckets.
+
 o	Enabled bucket versioning for data backup and recovery.
 
 2.	Data Governance:
@@ -140,9 +152,13 @@ o	Enabled bucket versioning for data backup and recovery.
 ![AWS Screenshot](images/Picture30.png)
 
 o	Used AWS Glue visual ETL for quality checks.
+
 o	Ensured awarded column completeness was >99%.
+
 o	Verified uniqueness of bid numbers >80%.
+
 o	Ensured bid data freshness was <1500 days.
+
 o	Stored failed quality check data separately from approved data.
 
 5.	Data Monitoring:
@@ -151,14 +167,21 @@ o	Stored failed quality check data separately from approved data.
 ![AWS Screenshot](images/Picture32.png)
 
 o	Used AWS CloudWatch to monitor S3 bucket size and Glue job performance.
+
 o	Set alerts for threshold breaches to optimize storage.
 
 Tools and Technologies:
+
 •	Storage & Processing: AWS S3, AWS Glue, AWS Athena
+
 •	Security: AWS Key Management Service (KMS), S3 encryption, bucket versioning
+
 •	Data Governance: AWS Glue DataBrew, AWS Glue visual ETL
+
 •	Monitoring: AWS CloudWatch
+
 •	Data Analysis & Querying: SQL, AWS Athena
+
 
 
 Deliverables:
