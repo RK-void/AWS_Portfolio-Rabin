@@ -34,6 +34,7 @@ Methodology:
 ![AWS Screenshot](images/Picture3.png)
 
 o	Raw data was collected from CSV files.
+
 o	The data was uploaded to an AWS S3 bucket for storage and further processing.
 
 3.	Data Analysis:
