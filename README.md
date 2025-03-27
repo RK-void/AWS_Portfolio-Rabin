@@ -194,3 +194,8 @@ Deliverables:
 Conclusion:
 By implementing a structured Data Analytics Platform, the City of Vancouver can enhance decision-making, ensure transparency in procurement, and improve financial oversight. This comprehensive approach integrates descriptive analysis, data wrangling, and data quality control to provide a robust foundation for data-driven governance.
 
+Course Completion Badge
+
+![AWS Completion Badge](images/aws-academy-graduate-aws-academy-cloud-foundations.png)
+
+![AWS Completion Certificate](images/AWS Completion 2025-03-26 195656.png)
