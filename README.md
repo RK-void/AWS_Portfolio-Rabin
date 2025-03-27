@@ -198,4 +198,4 @@ Course Completion Badge
 
 ![AWS Completion Badge](images/aws-academy-graduate-aws-academy-cloud-foundations.png)
 
-![AWS Completion Certificate](images/AWS Completion 2025-03-26 195656.png)
+![AWS Completion Certificate](images/AWS-Completion.png)
