@@ -1,6 +1,6 @@
 # AWS_Portfolio-Rabin
 
-AWS Architecture Diagram
+# AWS Architecture Diagram
 
 
 ![AWS Architecture Diagram](images/Picture1.png)
@@ -8,7 +8,7 @@ AWS Architecture Diagram
 
 ![AWS Architecture Diagram](images/Picture2.png)
 
-Descriptive Analysis
+# Descriptive Analysis
 
 Project Description: Descriptive Analysis of Awarded Bids in Vancouver
 
@@ -27,7 +27,7 @@ The dataset consists of awarded contract data and contains the following key att
 •	Vendor: Name of the awarded vendor
 •	Contract Amount: Total awarded contract value
 
-Methodology:
+# Methodology:
 
 1.	Data Ingestion:
 
@@ -64,7 +64,7 @@ o	Filtered and cleaned data for accurate analysis.
 o	Extracted key insights regarding financial distribution and bid patterns.
 
 
-Data Wrangling
+# Data Wrangling
 
 Project Description: Data Wrangling for Improved Bidding Analytics in Vancouver
 
@@ -119,7 +119,7 @@ o	Stored cleaned and processed data in a curated AWS S3 bucket.
 o	Ensured accessibility for further analysis in AWS Athena.
 
 
-Data Quality Control
+# Data Quality Control
 
 Project Description: Ensuring High-Quality Bidding Data for Analysis
 
@@ -128,7 +128,7 @@ Project Title: Data Quality Control for City of Vancouver’s Procurement System
 Objective:
 To implement security, governance, and monitoring mechanisms for improving data integrity and reliability.
 
-Methodology:
+# Methodology:
 1.	Data Security:
 
 ![AWS Screenshot](images/Picture21.png)
@@ -170,7 +170,7 @@ o	Used AWS CloudWatch to monitor S3 bucket size and Glue job performance.
 
 o	Set alerts for threshold breaches to optimize storage.
 
-Tools and Technologies:
+# Tools and Technologies:
 
 •	Storage & Processing: AWS S3, AWS Glue, AWS Athena
 
@@ -184,17 +184,17 @@ Tools and Technologies:
 
 
 
-Deliverables:
+# Deliverables:
 •	A descriptive analysis report of awarded bids.
 •	A cleaned and structured dataset for querying and reporting.
 •	A data quality control framework to ensure high data integrity and accuracy, like schema validation, data completedness, uniqueness check, etc.
 •	Visual metric to monitor and analyze procurement trends.
 •	A presentation summarizing findings and recommendations.
 
-Conclusion:
+# Conclusion:
 By implementing a structured Data Analytics Platform, the City of Vancouver can enhance decision-making, ensure transparency in procurement, and improve financial oversight. This comprehensive approach integrates descriptive analysis, data wrangling, and data quality control to provide a robust foundation for data-driven governance.
 
-Course Completion Badge
+# Course Completion Badge
 
 ![AWS Completion Badge](images/aws-academy-graduate-aws-academy-cloud-foundations.png)
 
