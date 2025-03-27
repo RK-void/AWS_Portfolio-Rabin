@@ -14,10 +14,10 @@ Project Description: Descriptive Analysis of Awarded Bids in Vancouver
 
 Project Title: Understanding Bidding Trends and Awarded Contracts in the City of Vancouver
 
-Objective:
+# Objective:
 The goal of this project is to analyze bidding and awarded contract data for the City of Vancouver to identify trends, track financial distribution, and evaluate procurement patterns. Through descriptive statistics and SQL-based querying in AWS Athena, the city can gain insights into bid amounts, award rates, and procurement trends.
 
-Dataset:
+# Dataset:
 
 The dataset consists of awarded contract data and contains the following key attributes:
 •	Bid Number: Unique identifier for each bid
@@ -29,7 +29,7 @@ The dataset consists of awarded contract data and contains the following key att
 
 # Methodology:
 
-1.	Data Ingestion:
+# 1.	Data Ingestion:
 
 ![AWS Screenshot](images/Picture3.png)
 
@@ -37,7 +37,7 @@ o	Raw data was collected from CSV files.
 
 o	The data was uploaded to an AWS S3 bucket for storage and further processing.
 
-3.	Data Analysis:
+# 2.	Data Analysis:
 
 ![AWS Screenshot](images/Picture19.png)
 ![AWS Screenshot](images/Picture20.png)
@@ -49,7 +49,7 @@ o	Computed the average bid amount per year.
 o	Calculated the total awarded bid value per year.
 
 
-4.	Data Summarization & Reporting:
+# 3.	Data Summarization & Reporting:
 
 ![AWS Screenshot](images/Picture12.png)
 ![AWS Screenshot](images/Picture13.png)
@@ -70,12 +70,12 @@ Project Description: Data Wrangling for Improved Bidding Analytics in Vancouver
 
 Project Title: Cleaning and Structuring Bidding Data for Effective Analysis
 
-Objective:
+# Objective:
 To clean and transform raw bidding data stored in AWS S3 to ensure accuracy, consistency, and completeness for meaningful analysis.
 
-Methodology:
+# Methodology:
 
-1.	Data Ingestion:
+# 1.	Data Ingestion:
 
 ![AWS Screenshot](images/Picture3.png)
 
@@ -83,7 +83,7 @@ o	Created an AWS S3 bucket for structured data storage.
 
 o	Uploaded raw CSV data to a structured folder system.
 
-3.	Data Profiling:
+# 2.	Data Profiling:
 
 ![AWS Screenshot](images/Picture4.png)
 
@@ -91,7 +91,7 @@ o	Used AWS Glue DataBrew to detect missing values and inconsistencies.
 
 o	Identified 3% missing values in the dataset.
 
-5.	Data Cleaning:
+# 3.	Data Cleaning:
 
 ![AWS Screenshot](images/Picture5.png)
 ![AWS Screenshot](images/Picture6.png)
@@ -102,7 +102,7 @@ o	Used AWS Glue to remove missing values and standardize data.
 
 o	Ensured bid amount data types were consistent.
 
-7.	Data Cataloging:
+# 4.	Data Cataloging:
 
 ![AWS Screenshot](images/Picture9.png)
 ![AWS Screenshot](images/Picture10.png)
@@ -112,7 +112,7 @@ o	Created an AWS Glue Crawler to scan and organize data.
 
 o	Automated table creation for easy querying.
 
-8.	Data Storage:
+# 5.	Data Storage:
 
 o	Stored cleaned and processed data in a curated AWS S3 bucket.
 
@@ -125,11 +125,12 @@ Project Description: Ensuring High-Quality Bidding Data for Analysis
 
 Project Title: Data Quality Control for City of Vancouver’s Procurement System
 
-Objective:
+# Objective:
 To implement security, governance, and monitoring mechanisms for improving data integrity and reliability.
 
 # Methodology:
-1.	Data Security:
+
+# 1.	Data Security:
 
 ![AWS Screenshot](images/Picture21.png)
 ![AWS Screenshot](images/Picture22.png)
@@ -145,7 +146,7 @@ o	Applied encryption to all AWS S3 storage buckets.
 
 o	Enabled bucket versioning for data backup and recovery.
 
-2.	Data Governance:
+# 2.	Data Governance:
 
 ![AWS Screenshot](images/Picture28.png)
 ![AWS Screenshot](images/Picture29.png)
@@ -161,7 +162,7 @@ o	Ensured bid data freshness was <1500 days.
 
 o	Stored failed quality check data separately from approved data.
 
-5.	Data Monitoring:
+# 3.	Data Monitoring:
 
 ![AWS Screenshot](images/Picture31.png)
 ![AWS Screenshot](images/Picture32.png)
